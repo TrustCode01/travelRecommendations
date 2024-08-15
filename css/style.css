@@ -1,0 +1,109 @@
+body{
+    overflow-x: hidden;
+}
+.navbar-toggler{
+    border: none;
+    outline: none;
+    color: black;
+}
+.top-nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main-header{
+    width: 100vw;
+    height: 80vh;
+    background-image: url("../images/banner-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
+    position: relative;
+}
+.navbar-brand{
+    font-weight: bold;
+    display: inline-block;
+}
+form button,.form-control{
+    height: 30px;
+    padding: 3px 7px;
+    font-size: 14px;
+}
+.cover{
+    position: absolute;
+    top: 40px;
+    width: 70vw;
+    display: flex;
+    background-image: linear-gradient(to right, rgba(255,255,255,0.5),rgba(255,255,255,0.1));
+}
+.design{
+    font-size: 0px;
+    width: 3px;
+    height: 100px;
+    background-color: white;
+    margin-bottom: 3em;
+}
+.social-links{
+    list-style: none;
+    margin-right: 1em;
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+   
+}
+.social-links li{
+    padding: 0.3em;
+}
+.social-links li img{
+    width: 25px;
+    margin-left: -1em;
+}
+.text-shell{
+    padding: 0.5em;
+    border-radius: 1em;
+    font-weight: bold;
+}
+.card{
+    margin: 0.5em;
+}
+.card-img{
+    max-width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+h3.h2, .h2{
+    font-size: 40px;
+    text-align: center;
+    padding: 1.5em;
+}
+.form{
+    height: auto;
+}
+.contact-form{
+    background-color: grey ;
+}
+form label{
+    font-weight: bold;
+}
+.contact-img{
+    width: 40vw;
+    height: 300px;
+    object-fit: cover;
+}
+.reco{
+    margin: 1em;
+    padding: 0.5em;
+}
+#container{    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0.5em;
+    gap: 0.7em;
+}
+#container article{
+   min-width: 300px;
+   box-shadow: 3px 3px 4px grey;
+   padding: 0.5em;
+
+}
