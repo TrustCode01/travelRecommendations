@@ -107,3 +107,7 @@ form label{
    padding: 0.5em;
 
 }
+#container article img{
+    max-width: 100%;
+    
+}

@@ -67,13 +67,15 @@
         {
             "id": 1,
             "name": "Bora Bora, French Polynesia",
-            "imageUrl": "../images/bora-bora.jpg",
+            "imageUrl": "/images/bora-bora.jpg",
+            "imageUrl1": "../images/bora-bora.jpg",
             "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows."
         },
         {
             "id": 2,
             "name": "Copacabana Beach, Brazil",
-            "imageUrl": "../images/copacabana.jpg",
+            "imageUrl": "/images/copacabana.jpg",
+            "imageUrl1": "../images/copacabana.jpg",
             "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views."
         }
     ]

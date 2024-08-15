@@ -38,11 +38,11 @@ fetch("travel_recommendation_api.json")
                 <a href="#" class="btn btn-success btn-outline">Visit</a>`;
               shell.appendChild(postElement);
             });
-          } else if (term === "country" || term==="countries") {
+          } else if (term === "austaulia" || term==="brazil" || term==="india" || term==="country") {
             data.countries.forEach(item => {
               const el = document.createElement("article");
               el.innerHTML = `
-                <img src="${item.cities[0].imageUrl}" alt="${item.cities[0].name}">
+                <img src="${item.cities[0].imageUrl1}" alt="${item.cities[0].name}">
                 <h3>${item.name}</h3>
                 <h3>${item.cities[0].name}</h3>
                 <p>${item.cities[0].description}</p>
